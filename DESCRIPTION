@@ -1,6 +1,6 @@
 Package: PHEindicatormethods
 Type: Package
-Version: 1.1.5
+Version: 1.2.0.9000
 Title: Common Public Health Statistics and their Confidence Intervals 
 Description: Functions to calculate commonly used public health statistics and 
     their confidence intervals using methods approved for use in the production  
@@ -32,7 +32,7 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     dplyr,
-    rlang,
+    rlang (>= 0.4.0),
     broom,
     tidyr,
     purrr,
@@ -41,7 +41,6 @@ Suggests:
     knitr,
     readxl,
     rmarkdown,
-    RODBC,
     testthat,
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
 VignetteBuilder: knitr
